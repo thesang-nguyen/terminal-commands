@@ -39,7 +39,7 @@ Remark: switch to a different branch first before deletion
 ## DELETE branch remotely:
 	git push origin --delete <remote_branch_name>
 
-## CREATE repo from existing folder
+## CREATE repo from existing folder:
 1. In terminal:
 
 ```
@@ -49,7 +49,12 @@ git commit -m "initial commit"
 ```
 
 2. Create repo on github.com with the same name as the folder:
-Follow all the steps there.
+Follow the steps shown (after the creation of the repo):
+```
+git remote add origin https://github.com/<username>/<repo-name>.git
+git branch -M main
+git push -u origin main
+```
 
 ## CONFIG:
 	git config -l
