@@ -3,24 +3,31 @@
 ## Open `cmd`.
 
 ## Show all running WSL distros:
-```c++
+
+```shell
 wsl --list --verbose
 ```
 
 ## Shutdown WSL:
-```c++
-wsl -t <distro_name>
 
-# for example:
+```shell
+wsl -t <distro_name>
+```
+
+for example:
+
+```
 wsl -t Ubuntu-20.04
 ```
 
 ## Shut down all distros:
-```c++
+
+```shell
 wsl --shutdown
 ```
 
 ## (Re)Start WSL:
-```c++
+
+```shell
 wsl --distribution <distro_name>
 ```
