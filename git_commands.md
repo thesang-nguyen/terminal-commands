@@ -40,10 +40,30 @@ uploads the commits to the remote
 git push
 ```
 
+## CREATE new branch:
+
+create new branch on local machine and switch to it
+
+```bash
+git checkout -b <branch_name>
+```
+
+push branch on github
+
+```bash
+git push origin <branch_name>
+```
+
 ## SWITCH branches:
 
 ```bash
 git switch <branch_name>
+```
+
+or 
+
+```bash
+git checkout <branch_name>
 ```
 
 ## DELETE branch locally:
